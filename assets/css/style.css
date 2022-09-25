@@ -1,0 +1,90 @@
+/*!
+ * Template Name/Project Name: XYZ
+ * Developer Name: Mr ABC
+ * Conatct: abc@gmail.com
+ * Visit: https://abc.info
+ */
+ /*common class start*/
+ /*for custom fonts*/
+ /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro&display=swap');
+ body{
+   margin: 0px;
+ }
+ *{
+  box-sizing: border-box;
+ }
+ .container-fluid{
+   width: 100%;
+ }
+ .container{
+   width:95%;
+   margin: 0px auto;
+ }
+ .h1,h2,h3,h4,h5,h6{
+   font-family: 'Playfair Display', serif;
+   margin: 0px;
+   padding: 0px;
+ }
+ p, a, li, span,small{
+   font-family: 'Source Sans Pro', sans-serif;
+ }
+ a{
+   text-decoration: none;
+ }
+ ul{
+   margin: 0px;
+   padding: 0px;
+ }
+ li{
+   list-style: none;
+ }
+ img{
+  height: 100%;
+  width: 100%;
+  display:block;
+ }
+ .d-flex{
+   display: flex;
+ }
+ .w-100{
+  width: 100%;
+ }
+ .w-70{
+  width: 70%;
+}
+.w-50{
+  width: 50%;
+}
+.w-30{
+  width: 30%;
+}*/
+  /*common class end*/
+ /*variables*/
+ :root{
+  --blue: green;
+  --white: red;
+  --heading-size:40px;
+  --text-size:20px;
+ }
+ h1{
+  color:var(--blue, black);
+  font-size: var(--heading-size);
+  color:brown;
+  font-size: 30px;
+ }
+ p{
+  color:var(--white);
+  font-size: var(--text-size);
+ }
+ h2{
+  color:var(--white);
+  font-size: var(--heading-size);
+ }
+ @media (min-width:) and (min-width:500px){
+  h1{
+    color:aqua;
+    font-size: 20px/1.5 arial;
+  }
+ }
+
+ 
